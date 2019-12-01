@@ -2,7 +2,7 @@
 
 Mandaring Garden in Logan, UT is one of my favorite restaurants. In particular, I love their tiny, spicy chicken which can best be described as a spicy variation of the more common sweet and sour chicken.
 
-Their current web site is incredibly basic and looks like something that might have looked alright in the early 2000's, but is certainly in need of a refresh.
+Their current web site is incredibly basic and written in HTML 4, so it's in need of an update to get up to HTML 5 standards.
 
 I've decdied to take on the task of redesigning their site to have a more modern feel and to enhance its readability and responsiveness.
 
@@ -22,6 +22,14 @@ I've decdied to take on the task of redesigning their site to have a more modern
 
 ---
 
+## Project Dependencies
+
+| Package        | Version |
+| -------------- | ------- |
+| beautifulsoup4 | 4.6.3   |
+| bs4            | 0.0.1   |
+| urllib3        | 1.23    |
+
 ## Tasks
 
 - [x] Use Python to scrape current site data
@@ -39,3 +47,4 @@ I've decdied to take on the task of redesigning their site to have a more modern
 - [ ] Create Combinations page
 - [ ] Add links to social media
 - [ ] Add an image gallery with photos from Facebook posts
+- [ ] On the main page, have a fortune of the day that is dynamically generated

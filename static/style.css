@@ -23,16 +23,26 @@ body {
 .store-info {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: .3rem;
+}
+
+.store-info i {
+    color: darkgrey;
+    padding-right: .35rem;
 }
 
 h2 {
+    line-height: 1;
     text-shadow: 1px 1px 1px darkslategray;
 }
 
 img {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 p {
+    font-size: .85rem;
+    line-height: 1;
     color: white;
 }

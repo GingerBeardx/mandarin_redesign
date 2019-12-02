@@ -11,25 +11,30 @@ body {
     
 }
 
-.content {
+.content, .store-info {
     display: flex;
+    align-items: center;
+}
+.content {
     text-align: center;
     flex-direction: column;
-    align-items: center;
     max-width: 980px;
     margin: 0 auto;
 }
 
 .store-info {
-    display: flex;
     flex-direction: row;
-    align-items: center;
     padding: .3rem;
 }
 
 .store-info i {
+    font-size: 1.5rem;
     color: darkgrey;
-    padding-right: .35rem;
+    padding-right: .75rem;
+}
+
+.store-info i:hover {
+    color: darkred;
 }
 
 h2 {

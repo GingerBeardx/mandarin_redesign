@@ -20,6 +20,15 @@ body {
     margin: 0 auto;
 }
 
+.store-info {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px darkslategray;
+}
+
 img {
     max-width: 300px;
 }

@@ -38,7 +38,7 @@ I've decdied to take on the task of redesigning their site to have a more modern
 - [ ] Create one-page landing
   - [ ] Move discounts to main page
   - [ ] Find better accepted cards image
-  - [ ] See if main image can be converted to an .svg
+  - [x] See if main image can be converted to an .svg
   - [ ] Implement light and dark modes
 - [x] Find fonts
 - [x] Determine color scheme
@@ -46,6 +46,6 @@ I've decdied to take on the task of redesigning their site to have a more modern
 - [ ] Create lunch specials page
 - [ ] Create Combinations page
 - [ ] Add links to social media
-- [ ] Add Google Map location and see about being able to directly link to directions
+- [x] Add Google Map location and see about being able to directly link to directions
 - [ ] Add an image gallery with photos from Facebook posts
 - [ ] On the main page, have a fortune of the day that is dynamically generated

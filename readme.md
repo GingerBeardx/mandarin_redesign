@@ -41,10 +41,11 @@ I've decdied to take on the task of redesigning their site to have a more modern
   - [ ] See if main image can be converted to an .svg
   - [ ] Implement light and dark modes
 - [x] Find fonts
-- [ ] Determine color scheme
+- [x] Determine color scheme
 - [ ] Create collapsable category sections
 - [ ] Create lunch specials page
 - [ ] Create Combinations page
 - [ ] Add links to social media
+- [ ] Add Google Map location and see about being able to directly link to directions
 - [ ] Add an image gallery with photos from Facebook posts
 - [ ] On the main page, have a fortune of the day that is dynamically generated

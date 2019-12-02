@@ -33,6 +33,7 @@ body {
 }
 
 h2 {
+    padding-top: .5rem;
     line-height: 1;
     text-shadow: 1px 1px 1px darkslategray;
 }
@@ -43,6 +44,6 @@ img {
 
 p {
     font-size: .85rem;
-    line-height: 1;
+    line-height: 1.25;
     color: white;
 }

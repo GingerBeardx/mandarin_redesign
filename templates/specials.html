@@ -6,18 +6,20 @@
     <p>Lunch is served with: FRIED RICE, [EGGROLLS/WONTONS(3)], AND SOUP [EGGDROP/HOT N SOUR/WONTON] OR SALAD FOR $0.50 EXTRA</p>
     <br>
     <span class="spicy"><i class="fas fa-pepper-hot"></i><p>Denotes Spicy</p></span>
+    <br>
     <div class="table">
         <table>
         {% for special in specials %}
         <tr>
-            {% if special.hot == 'True' %}
-                <td><i class="fas fa-pepper-hot"></i></td>
-            {% else %}
-                <td> </td>
-            {% endif %}
-            <td>{{ special.name }}</td>
-            <td>{{ special.item }}</td>
-            <td>{{ special.price }}</td>
+            <td class="hot">
+                {% if special.hot == 'True' %}
+                <i class="fas fa-pepper-hot"></i>
+                {% else %}
+                {% endif %}
+            </td>
+            <td class="name">{{ special.name }}</td>
+            <td class="item">{{ special.item }}</td>
+            <td class="price">{{ special.price }}</td>
         </tr>
         {% endfor %}
     </table>

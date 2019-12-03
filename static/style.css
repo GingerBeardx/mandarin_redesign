@@ -26,7 +26,7 @@ body {
     padding: .3rem;
 }
 
-.store-info i, .spicy i {
+.store-info i {
     font-size: 1.5rem;
     color: darkgrey;
     padding-right: .75rem;
@@ -38,13 +38,36 @@ body {
 }
 
 .table {
-    width: 300px;
+    width: 315px;
     margin: 0 auto;
     color: darkgrey;
 }
 
 .spicy {
     flex-direction: row;
+}
+
+.spicy i {
+    font-size: 1.5rem;
+    color: darkred;
+    padding-right: .75rem;
+}
+
+.hot {
+    width: 7%;
+    color: darkred;
+}
+
+.name {
+    width: 10%;
+}
+
+.item {
+    width: 60%;
+}
+
+.price {
+    width: 23%;
 }
 
 tr {

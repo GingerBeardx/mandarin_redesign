@@ -29,6 +29,7 @@ I've decdied to take on the task of redesigning their site to have a more modern
 | beautifulsoup4 | 4.6.3   |
 | bs4            | 0.0.1   |
 | urllib3        | 1.23    |
+| Flask          | 1.1.1   |
 
 ## Tasks
 
@@ -43,7 +44,7 @@ I've decdied to take on the task of redesigning their site to have a more modern
 - [x] Find fonts
 - [x] Determine color scheme
 - [ ] Create collapsable category sections
-- [ ] Create lunch specials page
+- [x] Create lunch specials page
 - [ ] Create Combinations page
 - [ ] Add links to social media
 - [x] Add Google Map location and see about being able to directly link to directions

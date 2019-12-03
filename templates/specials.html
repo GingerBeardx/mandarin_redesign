@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h3>Luncheon Specials</h3>
+    <span class="hours">Served Monday-Friday 11 AM to 3:30 PM</span>
+    <p>Lunch is served with: FRIED RICE, [EGGROLLS/WONTONS(3)], AND SOUP [EGGDROP/HOT N SOUR/WONTON] OR SALAD FOR $0.50 EXTRA</p>
+    <br>
+    <span class="spicy"><i class="fas fa-pepper-hot"></i><p>Denotes Spicy</p></span>
+    <div class="table">
+        <table>
+        {% for special in specials %}
+        <tr>
+            {% if special.hot == 'True' %}
+                <td><i class="fas fa-pepper-hot"></i></td>
+            {% else %}
+                <td> </td>
+            {% endif %}
+            <td>{{ special.name }}</td>
+            <td>{{ special.item }}</td>
+            <td>{{ special.price }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+    
+    
+{% endblock content %}

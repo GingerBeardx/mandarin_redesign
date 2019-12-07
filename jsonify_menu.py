@@ -56,38 +56,16 @@ menu = [
         'filename': 'vegetables.csv'
     }
 ]
-# Loop over the dictionary to create a master JSON file with all the menu items
+# Loop over the menu variable to create the full menu
 
-full_menu = []
-for menu_item in menu:
-    menu_dict = {}
-    menu_dict['header'] = menu_item['header']
-    with open('./scrape/' + menu_item['filename']) as f:
-        menu_items = csv.DictReader(f)
-    menu_dict['item_list'] = menu_items
-    full_menu.append(menu_dict)
-    print(f"{menu_item['header']} added to Menu")
 
-print(full_menu)
-
-"""
-Prototype of the master JSON File:
-{
-    {
-        'Heeader': 'Header',
-        'Menu items': [list of menu items]
-    },
-    {
-        'Heeader': 'Header',
-        'Menu items': [list of menu items]
-    },
-    {
-        'Heeader': 'Header',
-        'Menu items': [list of menu items]
-    },
-    .
-    .
-    .
-}
-
-"""
+def generate_menu():
+    full_menu = []
+    for menu_item in menu:
+        menu_dict = {}
+        menu_dict['header'] = menu_item['header']
+        with open('./scrape/' + menu_item['filename']) as f:
+            menu_items = list(csv.DictReader(f))
+        menu_dict['item_list'] = menu_items
+        full_menu.append(menu_dict)
+    return full_menu

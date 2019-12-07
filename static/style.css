@@ -16,11 +16,18 @@ span {
   display: flex;
   align-items: center;
 }
+
 .content {
   text-align: center;
   flex-direction: column;
   max-width: 980px;
   margin: 0 auto;
+}
+
+.description {
+  /* font-style: italic; */
+  font-size: 0.75rem;
+  color: grey;
 }
 
 .store-info {
@@ -83,9 +90,13 @@ tr:nth-child(even) {
 }
 
 h2 {
+  font-size: 2rem;
   padding-top: 0.5rem;
   line-height: 1;
-  text-shadow: 1px 1px 1px darkslategray;
+}
+
+h3 {
+  padding-bottom: 0.5rem;
 }
 
 img {

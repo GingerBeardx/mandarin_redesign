@@ -75,6 +75,7 @@ span {
 tr {
   display: flex;
   flex-direction: row;
+  padding: 0.1rem 0.15rem;
 }
 
 tr:nth-child(even) {

@@ -35,7 +35,7 @@ I've decdied to take on the task of redesigning their site to have a more modern
 
 - [x] Use Python to scrape current site data
   - [x] Save the data in a .csv file
-- [ ] Create a favicon
+- [x] Create a favicon
 - [ ] Create one-page landing
   - [ ] Move discounts to main page
   - [ ] Find better accepted cards image

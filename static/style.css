@@ -1,92 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Cinzel', serif;
-    display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
 }
 
 body {
-    background-color: #000;
-    color: darkred;   
+  background-color: #000;
+  color: darkred;
 }
 
-.content, .store-info, span {
-    display: flex;
-    align-items: center;
+.content,
+.store-info,
+span {
+  display: flex;
+  align-items: center;
 }
 .content {
-    text-align: center;
-    flex-direction: column;
-    max-width: 980px;
-    margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .store-info {
-    flex-direction: row;
-    padding: .3rem;
+  flex-direction: row;
+  padding: 0.3rem;
 }
 
 .store-info i {
-    font-size: 1.5rem;
-    color: darkgrey;
-    padding-right: .75rem;
-    transition: 0.25s ease-in-out;
+  font-size: 1.5rem;
+  color: darkgrey;
+  padding-right: 0.75rem;
+  transition: 0.25s ease-in-out;
 }
 
 .store-info i:hover {
-    color: darkred;
+  color: darkred;
 }
 
 .table {
-    width: 315px;
-    margin: 0 auto;
-    color: darkgrey;
+  width: 315px;
+  margin: 0 auto;
+  color: darkgrey;
 }
 
 .spicy {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .spicy i {
-    font-size: 1.5rem;
-    color: darkred;
-    padding-right: .75rem;
+  font-size: 1.5rem;
+  color: darkred;
+  padding-right: 0.75rem;
 }
 
 .hot {
-    width: 7%;
-    color: darkred;
+  width: 7%;
+  color: darkred;
 }
 
 .name {
-    width: 10%;
+  width: 10%;
 }
 
 .item {
-    width: 60%;
+  width: 75%;
 }
 
 .price {
-    width: 23%;
+  width: 15%;
 }
 
 tr {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(34, 8, 8);
 }
 
 h2 {
-    padding-top: .5rem;
-    line-height: 1;
-    text-shadow: 1px 1px 1px darkslategray;
+  padding-top: 0.5rem;
+  line-height: 1;
+  text-shadow: 1px 1px 1px darkslategray;
 }
 
 img {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.25;
-    color: white;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: white;
 }

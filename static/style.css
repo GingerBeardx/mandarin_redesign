@@ -25,6 +25,12 @@ nav {
   padding: 14px 10px;
   text-decoration: none;
   font-size: 17px;
+  transition: 0.25s ease-in-out;
+}
+
+.menu-btn a:hover {
+  background: darkred;
+  border-radius: 0.5rem;
 }
 
 .active {
@@ -41,7 +47,7 @@ span {
 }
 
 .content {
-  top: 6vh;
+  top: 8vh;
   text-align: center;
   flex-direction: column;
   max-width: 980px;
@@ -53,6 +59,16 @@ span {
   /* font-style: italic; */
   font-size: 0.75rem;
   color: grey;
+}
+
+.hours-box {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.75rem;
+}
+
+.hours-icon {
+  padding-top: 0.75rem;
 }
 
 .hidden {

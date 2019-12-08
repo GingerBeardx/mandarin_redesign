@@ -20,7 +20,6 @@ def specials():
 @app.route('/menu')
 def menu():
     full_menu = generate_menu()
-    print(full_menu)
     return render_template('menu.html', menu=full_menu)
 
 

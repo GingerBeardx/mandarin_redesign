@@ -5,6 +5,34 @@ body {
   display: block;
 }
 
+/* Nav Styles */
+nav {
+  height: 2.75rem;
+  width: 100%;
+  background: rgb(34, 8, 8);
+  position: absolute;
+  overflow: hidden;
+}
+
+.menu-btn {
+  align-content: center;
+}
+
+.menu-btn a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background: #000;
+}
+
+/* Main Styles */
+
 .content,
 .store-info,
 span {
@@ -13,10 +41,12 @@ span {
 }
 
 .content {
+  top: 6vh;
   text-align: center;
   flex-direction: column;
   max-width: 980px;
   margin: 0 auto;
+  position: relative;
 }
 
 .description {

@@ -25,13 +25,16 @@
       href="{{ url_for('static', filename='img/logo_no_text.png') }}"
       type="image/x-icon"
     />
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
     <title>Mandarin Garden</title>
   </head>
   <body>
-    <!-- Insert Nav -->
+    <nav>
+      {% block nav %}{% endblock nav %}
+    </nav>
     <main>
       <div class="content">
-        {% block content %}{% endblock %}
+        {% block content %}{% endblock content%}
       </div>
       <!-- Insert accepted payment options -->
       <!-- Insert Social Media -->

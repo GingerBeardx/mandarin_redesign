@@ -9,7 +9,7 @@ body {
 nav {
   height: 2.75rem;
   width: 100%;
-  background: rgb(34, 8, 8);
+  background: #220808;
   position: absolute;
   overflow: hidden;
 }
@@ -136,7 +136,7 @@ tr {
 }
 
 tr:nth-child(even) {
-  background-color: rgb(34, 8, 8);
+  background-color: #220808;
 }
 
 h2 {

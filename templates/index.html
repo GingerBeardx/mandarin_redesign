@@ -1,13 +1,25 @@
 {% extends 'layout.html' %} 
 
 {% block nav %}
-<div class="menu-btn">
+<div class="header">
+  <h2 class="logo">Mandarin Garden</h2>
+  <input id="chk" type="checkbox">
+  <label for="chk" class="show-menu-btn">
+    <i class="fas fa-ellipsis-h"></i>
+  </label>
+
+  <ul class="menu">
     <a class="link active" href="/">Main</a>
     <a class="link" href="/menu">Menu</a>
     <a class="link" href="/specials">Specials</a>
     <a class="link" href="/combos">Combos</a>
     <a class="link" href="/discounts">Discounts</a>
-    </ul>
+    <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+  </ul>
+</div>    
+
 </div>
 {% endblock nav %}
 

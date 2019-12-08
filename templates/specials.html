@@ -1,17 +1,23 @@
-{% extends 'layout.html' %} 
+{% extends 'layout.html' %} {% block nav %}
+<div class="header">
+  <h2 class="logo">Mandarin Garden</h2>
+  <input id="chk" type="checkbox" />
+  <label for="chk" class="show-menu-btn">
+    <i class="fas fa-ellipsis-h"></i>
+  </label>
 
-{% block nav %}
-<div class="menu-btn">
+  <ul class="menu">
     <a class="link" href="/">Main</a>
     <a class="link" href="/menu">Menu</a>
     <a class="link active" href="/specials">Specials</a>
     <a class="link" href="/combos">Combos</a>
     <a class="link" href="/discounts">Discounts</a>
-    </ul>
+    <label for="chk" class="hide-menu-btn">
+      <i class="fas fa-times"></i>
+    </label>
+  </ul>
 </div>
-{% endblock nav %}
-
-{% block content %}
+{% endblock nav %} {% block content %}
 <h2>Luncheon Specials</h2>
 <span class="store-info" style="display: flex; flex-direction: row;">
   <a href="tel:+435-753-5789"><i class="fas fa-phone"></i></a>

@@ -94,6 +94,7 @@ h3 {
   margin-top: 80px;
   padding: 0 20px;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .content img {
@@ -156,7 +157,7 @@ table {
 
 .price {
   width: 13%;
-  text-align: right;
+  text-align: center;
 }
 
 tr {
@@ -173,6 +174,18 @@ tr:nth-child(even) {
   /* font-style: italic; */
   font-size: 0.75rem;
   color: grey;
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  position: fixed;
+  height: 75px;
+  bottom: -100px;
+  width: 100%;
+  background: #220808;
 }
 
 /* Media Queries */

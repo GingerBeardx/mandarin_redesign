@@ -23,8 +23,6 @@
   <a href="tel:+435-753-5789"><i class="fas fa-phone"></i></a>
   <p>(435) 753-5789</p>
 </span>
-
-<span class="hours"><p>Served Monday-Friday 11 AM to 3:30 PM</p></span>
 <br />
 <span class="spicy">
   <i class="fas fa-pepper-hot"></i>
@@ -33,7 +31,7 @@
 <br />
 {% for section in menu %}
 <div class="table food-menu">
-  <h3>{{ section.header }}</h3>
+  <h3 class="menu-section">{{ section.header }}</h3>
   <table>
     {% for menu_item in section.item_list %}
     <tr>
@@ -46,7 +44,7 @@
       <td class="item" style="text-transform: capitalize;">
         {{ menu_item.item }}
         <br />
-        <span class="description show">{{ menu_item.description }}</span>
+        <span class="description">{{ menu_item.description }}</span>
       </td>
       <td class="price">{{ menu_item.price }}</td>
     </tr>

@@ -1,3 +1,4 @@
+/* Global reset and font style */
 * {
   margin: 0;
   padding: 0;
@@ -6,21 +7,25 @@
 
 /* Nav Styles */
 .header {
-  height: 100px;
+  height: 75px;
   background: #220808;
   padding: 0 20px;
   color: #fff;
+  position: fixed;
+  top: 0;
+  width: 98%;
 }
 
 .logo {
-  line-height: 100px;
+  line-height: 75px;
   float: left;
   text-transform: uppercase;
 }
 
 .menu {
   float: right;
-  line-height: 100px;
+  line-height: 75px;
+  margin-right: 18px;
 }
 
 .menu a {
@@ -48,7 +53,7 @@
 }
 
 .show-menu-btn i {
-  line-height: 100px;
+  line-height: 75px;
 }
 
 .menu a:hover,
@@ -64,26 +69,68 @@
 }
 
 /* Utililty styles */
+body {
+  background: #000;
+  color: #fff;
+}
+
+.content h2,
+h3 {
+  color: darkred;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 8px 0;
+}
+
+.content,
+.hours-box,
+.store-info {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+}
+
 .content {
+  margin-top: 80px;
   padding: 0 20px;
+  flex-direction: column;
 }
 
 .content img {
   width: 100%;
   max-width: 350px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .content p {
   text-align: justify;
 }
 
+.content i {
+  padding: 0 12px;
+  color: white;
+  font-size: 32px;
+  transition: 0.3s ease-in-out;
+}
+
+.content i:hover {
+  color: darkred;
+}
+
 /* Media Queries */
+/* Medium Range */
 @media screen and (max-width: 800px) {
   /* Nav Styles */
   .show-menu-btn,
   .hide-menu-btn {
     display: block;
+  }
+
+  .show-menu-btn {
+    margin-right: 24px;
+  }
+  .header {
+    width: 93%;
   }
 
   .menu {
@@ -113,5 +160,17 @@
 
   #chk:checked ~ .menu {
     right: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .logo,
+  .show-menu-btn {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .show-menu-btn {
+    margin-right: 42px;
   }
 }

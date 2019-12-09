@@ -188,6 +188,10 @@ tr:nth-child(even) {
   background: #220808;
 }
 
+.copyright {
+  text-transform: uppercase;
+}
+
 /* Media Queries */
 /* Medium Range */
 @media screen and (max-width: 800px) {

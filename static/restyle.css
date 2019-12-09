@@ -156,6 +156,7 @@ table {
 
 .price {
   width: 13%;
+  text-align: right;
 }
 
 tr {
@@ -196,7 +197,7 @@ tr:nth-child(even) {
     height: 100vh;
     background: #220808;
     opacity: 0.98;
-    right: -100%;
+    right: -110%;
     top: 0;
     text-align: center;
     padding: 80px 0;
@@ -216,11 +217,13 @@ tr:nth-child(even) {
   }
 
   #chk:checked ~ .menu {
-    right: 0;
+    right: -2%;
   }
 
   /* Menu Stylings */
-  .description {
+  .description,
+  .hot,
+  .spicy {
     display: none;
   }
 }
@@ -228,6 +231,14 @@ tr:nth-child(even) {
 @media screen and (max-width: 490px) {
   .name {
     display: none;
+  }
+
+  .menu {
+    right: -120%;
+  }
+
+  #chk:checked ~ .menu {
+    right: -5%;
   }
 }
 
@@ -238,15 +249,26 @@ tr:nth-child(even) {
     font-weight: 500;
   }
 
-  h3 {
+  h3,
+  h2 {
     font-size: 18px;
+    text-align: center;
   }
 
-  td {
+  .menu {
+    right: -120%;
+  }
+
+  td,
+  p {
     font-size: 12px;
   }
 
   .show-menu-btn {
     margin-right: 42px;
+  }
+
+  #chk:checked ~ .menu {
+    right: -5%;
   }
 }

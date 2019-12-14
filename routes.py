@@ -21,6 +21,10 @@ def specials():
 def menu():
     full_menu = generate_menu()
     return render_template('menu.html', menu=full_menu)
+    
+@app.route('/discounts')
+def discounts():
+    return render_template('discounts.html')
 
 
 if __name__ == '__main__':

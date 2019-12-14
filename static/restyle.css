@@ -84,7 +84,9 @@ h3 {
 
 .content,
 .hours-box,
-.store-info {
+.store-info, 
+.discount,
+.coupon {
   display: flex;
   align-items: center;
   padding: 10px 5px;
@@ -104,7 +106,7 @@ h3 {
 }
 
 .content p {
-  text-align: justify;
+  text-align: center;
 }
 
 .content i {
@@ -116,6 +118,14 @@ h3 {
 
 .content i:hover {
   color: darkred;
+}
+
+.discount{
+  width: 75%;
+}
+
+.discount, .coupon{
+  flex-direction: column;
 }
 
 /* Menu styling */

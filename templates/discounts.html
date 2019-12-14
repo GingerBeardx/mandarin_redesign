@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block nav %}
+<div class="header">
+  <h2 class="logo">Mandarin Garden</h2>
+  <input id="chk" type="checkbox" />
+  <label for="chk" class="show-menu-btn">
+    <i class="fas fa-ellipsis-h"></i>
+  </label>
+
+  <ul class="menu">
+    <a class="link" href="/">Main</a>
+    <a class="link" href="/menu">Menu</a>
+    <a class="link" href="/specials">Specials</a>
+    <a class="link" href="/combos">Combos</a>
+    <a class="link active" href="/discounts">Discounts</a>
+    <label for="chk" class="hide-menu-btn">
+      <i class="fas fa-times"></i>
+    </label>
+  </ul>
+</div>
+{% endblock nav %}
+{% block content %}
+<div class="discount">
+  <h2>USU students receive 10% off purchases with valid student body card</h2>
+  <h2>Senior citizens receive 10% off</h2>
+
+  <div class="coupon">
+    <p>Coupon is only valid if printed. Adjust to appropriate size for printing 2" x 3.3"</p>
+    <img src="{{ url_for('static', filename='img/webcoupon.png') }}" alt="Web Coupon">
+  </div>
+</div>
+{% endblock content %}

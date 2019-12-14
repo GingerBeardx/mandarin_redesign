@@ -1,4 +1,5 @@
-{% extends 'layout.html' %} {% block nav %}
+{% extends 'layout.html' %}
+{% block nav %}
 <div class="header">
   <h2 class="logo">Mandarin Garden</h2>
   <input id="chk" type="checkbox" />
@@ -17,11 +18,9 @@
     </label>
   </ul>
 </div>
-{% endblock nav %} {% block content %}
-<img
-  src="{{ url_for('static', filename='img/logo_text_cropped.png') }}"
-  alt="Mandarin Garden Logo"
-/>
+{% endblock nav %}
+{% block content %}
+<img src="{{ url_for('static', filename='img/logo_text_cropped.png') }}" alt="Mandarin Garden Logo" />
 <h2>Cantonese Dining and Takeout</h2>
 <div class="hours-box">
   <div class="hours-icon">
@@ -43,10 +42,8 @@
 </span>
 
 <span class="store-info">
-  <a
-    href="https://www.google.com/maps/place/Mandarin+Garden+Restaurant/@41.7397545,-111.8365773,17z/data=!4m13!1m7!3m6!1s0x87547e0ac2cc08cf:0x4037b2ab32e3d654!2s432+Main+St,+Logan,+UT+84321!3b1!8m2!3d41.7397505!4d-111.8343833!3m4!1s0x87547e0ae6f8fca9:0xd255786aab20e50b!8m2!3d41.7397505!4d-111.8343833"
-    target="blank"
-  >
+  <a href="https://www.google.com/maps/place/Mandarin+Garden+Restaurant/@41.7397545,-111.8365773,17z/data=!4m13!1m7!3m6!1s0x87547e0ac2cc08cf:0x4037b2ab32e3d654!2s432+Main+St,+Logan,+UT+84321!3b1!8m2!3d41.7397505!4d-111.8343833!3m4!1s0x87547e0ae6f8fca9:0xd255786aab20e50b!8m2!3d41.7397505!4d-111.8343833"
+    target="blank">
     <i class="fas fa-map-marked-alt"></i>
   </a>
   <p>432 N Main, Logan, UT 84321</p>

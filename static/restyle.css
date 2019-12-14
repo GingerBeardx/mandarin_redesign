@@ -7,25 +7,25 @@
 
 /* Nav Styles */
 .header {
+  display: flex;
+  justify-content: space-between;
   height: 75px;
   background: #220808;
   padding: 0 20px;
   color: #fff;
   position: fixed;
   top: 0;
-  width: 98%;
+  width: 100%;
 }
 
 .logo {
   line-height: 75px;
-  float: left;
   text-transform: uppercase;
 }
 
 .menu {
-  float: right;
   line-height: 75px;
-  margin-right: 18px;
+  margin-right: 50px;
 }
 
 .menu a {
@@ -257,6 +257,18 @@ tr:nth-child(even) {
   #chk:checked ~ .menu {
     right: -5%;
   }
+    
+  .footer{
+    flex-direction: column;
+    padding: .2rem 0;
+    justify-content: space-evenly;
+  }
+  
+  .social a i{
+    font-size: 1.4rem;
+    padding: 0 .5rem;
+  }
+  
 }
 
 @media screen and (max-width: 350px) {

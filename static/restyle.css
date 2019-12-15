@@ -86,7 +86,10 @@ h3 {
 .hours-box,
 .store-info, 
 .discount,
-.coupon {
+.coupon, 
+.combo-opts,
+.dinner-opts,
+.combos {
   display: flex;
   align-items: center;
   padding: 10px 5px;
@@ -124,7 +127,10 @@ h3 {
   width: 75%;
 }
 
-.discount, .coupon{
+.discount, 
+.coupon,
+.dinner-opts,
+.combo-opts {
   flex-direction: column;
 }
 
@@ -187,6 +193,14 @@ tr:nth-child(even) {
 }
 
 /* Combo Styles */
+.combo-a,
+.combo-b,
+.family-dinner {
+  text-align: center;
+  padding: .2rem 1rem;
+  margin: 0.5rem;
+  border-bottom: 2px solid darkred;
+}
 
 /* Footer Styles */
 .footer {
@@ -246,7 +260,7 @@ tr:nth-child(even) {
   }
 
   #chk:checked ~ .menu {
-    right: -2%;
+    right: -8%;
   }
 
   /* Menu Stylings */
@@ -267,7 +281,11 @@ tr:nth-child(even) {
   }
 
   #chk:checked ~ .menu {
-    right: -5%;
+    right: -13%;
+  }
+  
+  .combos {
+    flex-direction: column;
   }
     
   .footer{
@@ -301,7 +319,8 @@ tr:nth-child(even) {
   }
 
   td,
-  p {
+  p,
+  li {
     font-size: 12px;
   }
 
@@ -310,6 +329,6 @@ tr:nth-child(even) {
   }
 
   #chk:checked ~ .menu {
-    right: -5%;
+    right: -15%;
   }
 }

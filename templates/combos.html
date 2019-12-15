@@ -1,0 +1,81 @@
+{% extends 'layout.html' %}
+<!-- Navigation Block -->
+{% block nav %}
+<div class="header">
+  <h2 class="logo">Mandarin Garden</h2>
+  <input id="chk" type="checkbox" />
+  <label for="chk" class="show-menu-btn">
+    <i class="fas fa-ellipsis-h"></i>
+  </label>
+
+  <ul class="menu">
+    <a class="link" href="/">Main</a>
+    <a class="link" href="/menu">Menu</a>
+    <a class="link" href="/specials">Specials</a>
+    <a class="link active" href="/combos">Combos</a>
+    <a class="link" href="/discounts">Discounts</a>
+    <label for="chk" class="hide-menu-btn">
+      <i class="fas fa-times"></i>
+    </label>
+  </ul>
+</div>
+{% endblock nav %}
+<!-- Main conent block -->
+{% block content %}
+<div class="combo-opts">
+  <div class="combos">
+    <div class="combo-a">
+      <h2>Combination A</h2>
+      <p class="combo-price">$ 9.50 per combo</p>
+      <p>Choose one selection from below to go with chicken <span class="combo-diff">chow mein</span>, 1 fried shrimp,
+        ham fried rice, and a choice of soup or salad</p>
+    </div>
+    <div class="combo-b">
+      <h2>Combination B</h2>
+      <p class="combo-price">$ 10.65 per combo</p>
+      <p>Choose one selection from below to go with chicken <span class="combo-diff">lo mein</span>, 1 fried shrimp, ham
+        fried rice, and a choice of soup or salad</p>
+    </div>
+  </div>
+  <div class="combo-opts">
+    <ol>
+      <li>TINY SPICY CHICKEN</li>
+      <li>CASHEW NUTS CHICKEN</li>
+      <li>KUNG BO BEEF</li>
+      <li>SWEET AND SOUR CHICKEN</li>
+      <li>BROCCOLI WITH BEEF</li>
+      <li>MONGOLIAN BEEF</li>
+      <li>SWEET AND SOUR PORK</li>
+      <li>KUNG BO SHRIMP</li>
+      <li>KUNG BO CHICKEN</li>
+      <li>BROCCOLI WITH CHICKEN</li>
+    </ol>
+  </div>
+</div>
+<div class="dinner-opts">
+  <div class="family-dinner">
+    <h2>Family Dinners</h2>
+    <p class="combo-pricwe">$ 11.25 per dinner</p>
+    <p>Choose one selection from below for each dinner. Dinner comes with one egg roll, ham fried rice, and a choice of
+      soup or salad.</p>
+  </div>
+  <div class="combo-opts">
+    <ol>
+      <li>SWEET AND SOUR CHICKEN</li>
+      <li>TINY SPICY CHICKEN</li>
+      <li>CASHEW NUTS CHICKEN</li>
+      <li>BROCCOLI WITH BEEF</li>
+      <li>MOO GOO GAI PAN</li>
+      <li>MONGOLIAN BEEF</li>
+      <li>HUNAN PORK</li>
+      <li>BEEF WITH SZCHEWAN STYLE</li>
+      <li>WONDERFUL SHRIMP</li>
+      <li>KUNG BO SHRIMP</li>
+      <li>SWEET AND SOUR PORK</li>
+      <li>VEGETABLE DELIGHT</li>
+    </ol>
+  </div>
+</div>
+
+
+{% endblock content %}

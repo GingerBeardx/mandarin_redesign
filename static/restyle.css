@@ -186,6 +186,8 @@ tr:nth-child(even) {
   color: grey;
 }
 
+/* Combo Styles */
+
 /* Footer Styles */
 .footer {
   display: flex;

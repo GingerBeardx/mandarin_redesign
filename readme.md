@@ -36,8 +36,7 @@ I've decdied to take on the task of redesigning their site to have a more modern
 - [x] Use Python to scrape current site data
   - [x] Save the data in a .csv file
 - [x] Create a favicon
-- [ ] Create one-page landing
-  - [ ] Move discounts to main page
+- [ ] Create each page to mirror current site
   - [ ] Find better accepted cards image
   - [x] See if main image can be converted to an .svg
   - [ ] Implement light and dark modes
@@ -46,7 +45,7 @@ I've decdied to take on the task of redesigning their site to have a more modern
 - [ ] Create collapsable category sections
 - [x] Create lunch specials page
 - [ ] Create Combinations page
-- [ ] Add links to social media
+- [x] Add links to social media
 - [x] Add Google Map location and see about being able to directly link to directions
 - [ ] Add an image gallery with photos from Facebook posts
 - [ ] On the main page, have a fortune of the day that is dynamically generated

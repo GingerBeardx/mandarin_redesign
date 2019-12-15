@@ -1,0 +1,8 @@
+name,hot,item,description,price
+LM01,FALSE,chicken lo mein,,7.25
+LM02,FALSE,ham lo mein (add $ 1 with shredded pork),,7.25
+LM03,FALSE,vegetables lo mein,,6.95
+LM04,FALSE,shrimp lo mein,,7.95
+LM05,FALSE,house special lo mein,,7.95
+BLM,FALSE,beef lo mein,,7.95
+PLM,FALSE,pork lo mein,,7.95

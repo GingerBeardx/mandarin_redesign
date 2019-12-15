@@ -1,0 +1,130 @@
+name,hot,item,description,price
+smER,False,spring roll (1),,1.00
+ER,False,pork egg roll (1),,1.75
+FWT,False,fried wontons (10),,2.75
+A03,False,fried fantail shrimps (4),,5.75
+A04,False,teriyaki chicken (4),,5.25
+A05,False,teriyaki beef (8),,5.75
+A06,False,fried/steamed dumplings (6),,5.95
+A07,False,"bo-bo platter (for two)","Includes 2 Cheese Wontons, 2 Fried shrimp, 2 teriyaki chicken 4 teriyaki beef sticks, and 2 egg rolls",8.95
+A08,False,cheese wonton (4),,3.99
+S/R/000/H/B,False,garden salad (ranch/house/1000/blue cheese),,1.75
+HSS,False,hot and sour soup (12oz/32oz),"Spicy chicken broth with pork, bean curd, bamboo shoot, and mushrooms",1.95/4.95
+EDS,False,egg drop soup (12oz/32oz),Chicken broth with egg flower and corn,1.75/4.75
+T03,False,"won ton soup (32oz)","Noodle dumplings with shrimp, chicken, ham, and mix vegetables",5.95
+T04,False,"bean curd w/ vegetables (for two)",Chicken broth with bean curd and Chinese vegetables,4.95
+T05,False,seafood sizzling rice soup (for two),"Chicken broth with shrimp, scallop, crab meat, and mix vegetables",6.25
+T06,False,house special soup (for two),"Chicken broth with shrimp, chicken, ham, crab meat, and mix vegetables",6.25
+T07,False,"pork with preserved vegetable soup (for two)",,6.25
+FR01,False,chicken fried rice,,6.75
+FR02,False,ham fried rice (add $1 with shredded pork),,6.75
+FR03,False,beef fried rice,,6.75
+FR04,False,shrimp fried rice,,7.75
+FR05,False,vegetables fried rice,,6.75
+FR06,False,house special fried rice,,7.75
+SR,False,steamed rice (small),,1.75
+SFR,False,small fried rice (ham only),,2.95
+PFR,False,pork fried rice,,7.95
+C01,False,cashew nut chicken,"Diced chicken, water chestnuts, zucchini and cashew nuts in brown sauce",8.25
+C02,False,sizzling rice with chicken,Sliced chicken and vegetables in white sauce Served on sizzling hot plate,8.25
+C03,False,snow pea chicken,"Sliced chicken cooked with snow peas, bamboo shoot and water chestnuts",8.25
+C04,False,sesame chicken,"Sliced chicken with broccoli, carrot, baby corn sauteed in rich brown sauce",8.25
+C05,False,tiny spicy chicken,Deep fried boneless chicken sauteed with our famous spicy tangy hot sauce,8.75
+C06,False,kung bo chicken,"Diced chicken, water chestnuts and zucchini with peanuts in spicy brown sauce",8.25
+C07,False,chicken with garlic sauce,Sliced chicken cooked with mix vegetables in hot garlic sauce,8.25
+C08,False,moo goo gai pan,"Sliced chicken cooked with broccoli, Chinese napa, mushrooms, bamboo shoot, snow peas, and water chestnut in white sauce",8.25
+C09,False,almond chicken,"Diced chicken cooked with green peas, mushrooms, water chestnut, onions, and zucchini in brown sauce with almonds spread on top",8.25
+C10,False,la che chicken,"Diced chicken cooked with water chestnut, green peppers, onions in hot spicy red sauce",8.25
+C11,False,sweet and sour chicken,"Deep fried boneless chicken with green pepper, onions, and diced pineapple. Sweet and sour sauce poured on the plate",8.75
+C12,False,lemon chicken,Deep fried boneless chicken sauteed with fresh lemon juiced yellow sauce,8.25
+C13,False,broccoli with chicken,Sliced chicken breast cooked with broccoli and water chestnut in white sauce,8.25
+C14,False,moo shu chicken (with 4 pancakes),"Sliced chicken with egg cooked with shredded cabbage, dried mushrooms, bamboo shoots and onions.",8.25
+BC,False,basil chicken,Sliced chicken in various peppers dressed in a unique brown sauce,8.25
+LM01,False,chicken lo mein,,7.25
+LM02,False,ham lo mein (add $ 1 with shredded pork),,7.25
+LM03,False,vegetables lo mein,,6.95
+LM04,False,shrimp lo mein,,7.95
+LM05,False,house special lo mein,,
+BLM,False,beef lo mein,,
+PLM,False,pork lo mein,,
+H01,False,orange beef,Pieces of crunchy beef sprinkled in dried orange peels and sauce,11.20
+H02,False,house chicken,Chunks of boneless chicken sauteed with Chef's special hot sauce,11.20
+H03,False,perfect shrimp with chicken,"Fresh shrimp and tender chicken sauteed with snow peas, water chestnut, carrot, and bamboo shoot in hot sauce",10.75
+H04,False,three kinds with spicy sauce,"Shrimp, chicken, beef, sauteed with mixed vegetables in hot spicy garlic sauce",10.75
+H05,False,happy family,"Shrimp, chicken, scallop, beef sauteed with mixed vegetables",10.75
+H06,False,seafood imperial,"Shrimp, scallop, imitation crab meat, and mixed vegetables stir fried with white sauce served with sizzling rice on hot plate",10.75
+H07,False,jumbo shrimp with scallops,"Shrimp, scallop, sauteed with snow peas, bamboo shoots, onions, black mushrooms in chef special sauce",10.75
+H08,False,rainbow jumbo shrimp,"Shrimp sauteed with snow peas, carrot, straw mushrooms, baby corn, water chestnuts, and bamboo shoot",10.75
+H11,False,orange chicken,"Chunks of boneless chicken seared to retain the natural flavor, then sauteed into a high flame crushed orange rind and hot pepper sauce",11.20
+H12,False,salty pepper chicken,Chunks of boneless chicken deep fried and seasoned in chef's special salt and pepper combination,11.20
+CM01,False,chicken chow mein,,6.25
+CM02,False,beef chow mein,,6.25
+CM03,False,ham chow mein,,6.25
+CM04,False,shrimp chow mein,,7.95
+CM05,False,vegetable chow mein,,5.95
+B01,False,moo shu beef(with 4 pancakes),"Sliced beef cooked with shredded cabbages, dried mushrooms, bamboo shoot, and onions.",8.75
+B02,False,snow peas beef,"Sliced beef cooked with snow peas, water chestnuts and bamboo shoots",8.75
+B03,False,kung bo beef,"Sliced beef cooked with peanuts, diced zucchini, and water chestnuts in a hot spicy sauce",8.75
+B04,False,yu shang beef,Sliced beef cooked with shredded bamboo shoots and dried mushrooms in a hot spicy red sauce,8.75
+B05,False,green pepper beef,Sliced beef cooked with green pepper and yellow onions,8.75
+B06,False,mongolian beef,Sliced beef cooked with green onions and yellow onions,8.75
+B07,False,black mushrooms with beef,"Sliced beef cooked with black mushrooms, bamboo shoots, and snow peas",8.75
+B08,False,emperor's delight,"Sliced beef cooked with imitation crab meat, straw mushrooms, bamboo shoots and snow peas in imperial sauce.",9.25
+B09,False,fresh broccoli with beef,,8.75
+B10,False,hunan beef,Sliced beef cooked with mix vegetables in hot pepper sauce,8.75
+B11,False,beef with szechwan style,"Sliced beef cooked with shredded bamboo shoot, carrots, and celery in a hot spicy sauce.",8.75
+CB,False,crispy beef,Breaded beef fried dressed with more sweet than sour sauce.,8.75
+P01,False,moo shu pork (with 4 pancakes),"Shredded pork cooked with shredded cabbages, egg, dried mushrooms, bamboo shoots and onions.",7.95
+P02,False,sweet and sour pork,Deep fried boneless pork with sweet & sour sauce,7.95
+P03,False,pork with garlic sauce,Shredded pork cooked with bamboo shoots and dried mushrooms in hot garlic sauce.,7.95
+P04,False,twice cooked pork,"Sliced pork cooked twice with cabbages, carrots and straw mushrooms in a spicy sauce.",7.95
+P05,False,hunan spicy pork,Sliced pork cooked with mix vegetables in hot pepper sauce,7.95
+P07,False,family style pork,"Sliced pork cooked with snow peas, carrot, dried mushrooms, and bamboo shoot",7.95
+NH01,False,honey walnut shrimp,"Pan fried rice noodles, served with jumbo shrimp, walnut and mayonaise sauce",$10.25
+NH02,False,seafood bean curd pot,"Shrimp, scallops, imitation crab meat cooked with fried bean curd, snow peas, bamboo shoots, and Chinese mushrooms in a Chinese clay pot.",$10.75
+NH03,False,salty pepper shrimp,Deep fried jumbo shrimp seasoned in chef's special salt and pepper combination.,$10.95
+NH04,False,pan-fried noodles,"Pan fried noodles served with chicken, ham, shrimp and mix vegetables with white sauce on top.",$10.25
+NH05,False,chinese barbeque sauce with beef,Sliced beef sauteed with yellow onions and mushrooms in our Oriental-chef Barbeque sauce.  Served on a hot plate.,$10.25
+NH06,False,ma-po bean curd,	Stir-fried bean curd with ground pork and green onions in a hot red spicy sauce.,$7.95
+NH07,False,super hot pepper pork,Shredded pork sauteed with jalapino and shredded yellow onions.,$10.25
+NH08,False,curry chicken,"Diced chicken with diced onions, green peas in hot curry sauce.",$8.25
+NH09,False,house special noodle soup,"Shrimp, chicken, ham, mix vegetables, and noodles served in chicken broth. No rice.	",$6.95 
+V01,False,moo shu vegetables (with 4 pancakes),"Shredded cabbage, mushrooms, bamboo shoots, bean sprouts, and onions.",$7.25
+V02,False,vegetables delight,"Broccoli, snow peas, carrots, water chestnuts, mushrooms, and baby corn.",$6.95
+V03,False,broccoli with garlic sauce,Broccoli and water chestnuts sauteed with spicy garlic sauce.,$6.95
+V04,False,family style bean curd,"Fried tofu sauteed w/ onions, sonw peas, dried lilly flowers, and carrots.",$7.25
+V05,False,bean curd w/ black mushroom,"Fried tofu sauteed, w/ onions, black mushrooms, and bamboo shoots.",$7.25
+V06,False,eggplant with garlic sauce,,seasonal
+S01,False,sweet and sour shrimp,,10.50
+S02,False,sizzling rice with shrimp,"Shrimp with snow peas, straw mushrooms, water chestnut in tangy red sauce Served with sizzling rice on hot plate",10.50
+S03,False,snow peas shrimp,Shrimp cooked with snow peas & water chestnuts in white sauce,10.50
+S04,False,kung bo shrimp ,"Shrimp cooked with diced zucchini, water chestnuts, and peatnuts in hot spicy sauce",10.50
+S05,False,wonderful shrimp,,10.50
+S06,False,kan saw shrimp,Shrimp cooked with diced yellow onions in hot spicy tangy sauce,10.50
+S07,False,shrimp with lobster sauce,Shrimp sauteed with green peas and mushrooms in brown sauce Egg flower poured on top,10.50
+S08,False,shrimp with cashew nuts,"Shrimp cooked with diced zucchini, water chestnut and cashew nuts",10.50
+S09,False,imperial shrimp,"Shrimp sauteed with snow peas, bamboo shoot, mushrooms, water chestnut imperial red sauce",10.50
+S10,False,seafood deluxe,"Shrimp, scallops, imitation crab meats sauteed with broccoli, mushrooms, water chestnut, baby corn, and carrot",10.50
+S11,False,shrimp with black bean sauce,Shrimp cooked with ground pork and black bean in oyster sauce Egg flower poured on top,10.50
+S12,False,scallop with garlic sauce,"Scallops sauteed with carrot, snow peas, water chestnut, bamboo shoot, and dried mushrooms in hot spicy sauce",10.50
+S13,False,tiny spicy shrimp,10 pieces of fried shrimp with tiny spicy sauce,10.50
+E01,False,chicken egg foo young,,7.75
+E02,False,pork egg foo young,,7.75
+E03,False,shrimp egg foo young,,7.95
+E04,False,vegetables egg foo young,,7.50
+Beverages,False,soft drinks (2 refills),,1.85
+PEPSI,False,,,1.85
+DIET PEPSI,False,,,1.85
+MTN DEW,False,,,1.85
+DR.PEPPER,False,,,1.85
+ROOT BEER (Caffeine free),False,,,1.85
+COCA-COLA,False,,,1.85
+DIET COKE,False,,,1.85
+ORANGE SODA,False,,,1.85
+PINK LEMONADE,False,,,1.85
+7-UP,False,,,1.85
+SWEETENED RASPBERRY ICED TEA,False,,,1.85
+UNSWEETENED TEA,False,,,1.85
+WATER,False,,,
+COFEE,False,,,
+TEA,False,,,

@@ -1,0 +1,10 @@
+name,hot,item,description,price
+FR01,FALSE,chicken fried rice,,6.75
+FR02,FALSE,ham fried rice (add $1 with shredded pork),,6.75
+FR03,FALSE,beef fried rice,,6.75
+FR04,FALSE,shrimp fried rice,,7.75
+FR05,FALSE,vegetables fried rice,,6.75
+FR06,FALSE,house special fried rice,,7.75
+SR,FALSE,steamed rice (small),,1.75
+SFR,FALSE,small fried rice (ham only),,2.95
+PFR,FALSE,pork fried rice,,7.95

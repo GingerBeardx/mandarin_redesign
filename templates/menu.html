@@ -49,7 +49,7 @@
           <br />
           <span class="description">{{ menu_item.description }}</span>
         </td>
-        <td class="price">{{ menu_item.price }}</td>
+        <td class="price">{{ "%.2f"|format(menu_item.price|float) }}</td>
       </tr>
       {% endfor %}
     </table>

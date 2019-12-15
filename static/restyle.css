@@ -135,6 +135,12 @@ h3 {
 }
 
 /* Menu styling */
+.menu-tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .menu-section {
   text-align: center;
 }
@@ -152,6 +158,7 @@ h3 {
 .table,
 table {
   width: 100%;
+  max-width: 550px;
 }
 
 .hot {

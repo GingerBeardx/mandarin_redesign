@@ -31,29 +31,31 @@
   <p>Denotes Spicy</p>
 </span>
 <br />
-{% for section in menu %}
-<div class="table food-menu">
-  <h3 class="menu-section">{{ section.header }}</h3>
-  <table>
-    {% for menu_item in section.item_list %}
-    <tr>
-      <td class="hot">
-        {% if menu_item.hot == True %}
-        <i class="fas fa-pepper-hot"></i>
-        {% else %} {% endif %}
-      </td>
-      <td class="name">{{ menu_item.name }}</td>
-      <td class="item" style="text-transform: capitalize;">
-        {{ menu_item.item }}
-        <br />
-        <span class="description">{{ menu_item.description }}</span>
-      </td>
-      <td class="price">{{ menu_item.price }}</td>
-    </tr>
-    {% endfor %}
-  </table>
-
-  <br />
+<div class="menu-tables">
+  {% for section in menu %}
+  <div class="table">
+    <h3 class="menu-section">{{ section.header }}</h3>
+    <table>
+      {% for menu_item in section.item_list %}
+      <tr>
+        <td class="hot">
+          {% if menu_item.hot == True %}
+          <i class="fas fa-pepper-hot"></i>
+          {% else %} {% endif %}
+        </td>
+        <td class="name">{{ menu_item.name }}</td>
+        <td class="item" style="text-transform: capitalize;">
+          {{ menu_item.item }}
+          <br />
+          <span class="description">{{ menu_item.description }}</span>
+        </td>
+        <td class="price">{{ menu_item.price }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <br />
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
+
 {% endblock content %}
